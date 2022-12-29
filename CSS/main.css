@@ -6,12 +6,14 @@
     margin: 0;
     padding: 0;
 }
+
 .bloc {
     max-width: 1400px;
     max-height: 100%;
     padding-left: 35px;
     padding-right: 35px;
 }
+
 .logo {
     width: 61px;
 }
@@ -64,6 +66,7 @@ p {
 .star_gray {
     color: #d9d9d9;
 }
+
 .main {
     display: flex;
     justify-content: space-between;
