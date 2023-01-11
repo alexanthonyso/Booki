@@ -1,38 +1,143 @@
 @media screen and (max-width: 992px) {
-    * {
-        max-width: 992px;
-    }
-    body {
-        width: 100%;
-      }
-
-/*FILTRES*/
-.filters_part {
+  .main {
     flex-wrap: wrap;
-}
+    gap: 30px;
+  }
 
-.filters_container {
-    padding-top: 15px;
-}
+  .a1 {
+    width: 100%;
+  }
 
-.filters {
-    height: 40px;
-    margin-bottom: 11px; 
-}
+  .card2 {
+    width: 100%;
+  }
+  .card2 p {
+    font-size: 13px;
+  }
 
-.filters_logo {
-    width: 40px;
-    height: 40px;
-}
+  .card2 img {
+    width: 106px;
+  }
 
-.filter_text {
-    padding-left: 0;
-}
+  aside {
+    padding-left: 0%;
+    margin-top: 53px;
+  }
 
- 
+  .asidecontainer {
+    flex-direction: row;
+    gap: 23px;
+  }
 
-    
+  #Activités h2 {
+    margin-bottom: 34px;
+  }
+
+  .card3 img {
+    height: 267px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-left: 45%;
+  }
+
+  h5 {
+    visibility: hidden;
+  }
+
+  .titre {
+    margin-left: 5%;
+  }
+
+  .search {
+    display: flex;
+    justify-content: center;
+  }
+
+  .filtre {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .bfiltre {
+    width: 40%;
+  }
+
+  .bfiltre p {
+    font-size: 11px;
+  }
+  .filtre h3 {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .info {
+    justify-content: center;
+  }
+  .main {
+    justify-content: center;
+  }
+
+  .a1 {
+    order: 2;
+    background: none;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .a2 {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card2 img {
+    width: 137px;
+  }
+  aside {
+    width: 100%;
+  }
+
+  .asidetitle {
+    align-self: flex-start;
+    display: flex;
+  }
+  .asidecard {
+    width: 100%;
+    border-radius: 0%;
+  }
+
+  .asidecontainer {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blocactiv {
+    width: 90%;
+    flex-direction: column;
+    margin: auto;
+  }
+  .card3 img {
+    height: 190px;
+  }
+  .foot {
+    flex-direction: column;
+    margin-top: 20%;
+    padding-top: 10%;
+  }
 }
