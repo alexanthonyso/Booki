@@ -1,4 +1,5 @@
 @media screen and (max-width: 992px) {
+  /*MAIN*/
   .main {
     flex-wrap: wrap;
     gap: 30px;
@@ -6,6 +7,26 @@
 
   .a1 {
     width: 100%;
+  }
+
+  /*POPULAR*/
+
+  aside {
+    padding-left: 0%;
+    margin-top: 53px;
+  }
+
+  .asidecard {
+    max-width: 100%;
+  }
+
+  .asidecontainer {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .asidetext {
+    width: 130px;
   }
 
   .card2 {
@@ -16,29 +37,27 @@
   }
 
   .card2 img {
-    width: 106px;
+    max-width: 37%;
   }
 
-  aside {
-    padding-left: 0%;
-    margin-top: 53px;
-  }
-
-  .asidecontainer {
-    flex-direction: row;
-    gap: 23px;
-  }
+  /*ACTIVITIES*/
 
   #Activités h2 {
     margin-bottom: 34px;
   }
 
   .card3 img {
-    height: 267px;
+    height: 211px;
+  }
+
+  .f1 {
+    margin-right: 0%;
   }
 }
 
 @media screen and (max-width: 768px) {
+  /*HEADER*/
+
   header {
     flex-direction: column;
   }
@@ -46,6 +65,8 @@
   .logo {
     margin-left: 45%;
   }
+
+  /*NAVIGATION*/
 
   nav ul li {
     border-bottom: 3px solid #f0f2f6;
@@ -57,6 +78,11 @@
     border-bottom: 3px solid #0065fc;
   }
 
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
   h5 {
     visibility: hidden;
   }
@@ -64,6 +90,8 @@
   .titre {
     margin-left: 5%;
   }
+
+  /*SEARCH*/
 
   .search {
     display: flex;
@@ -83,6 +111,8 @@
     display: inline;
   }
 
+  /*FILTRES*/
+
   .filtre {
     display: flex;
     justify-content: center;
@@ -99,6 +129,8 @@
     margin-left: 5%;
   }
 
+  /*INFO*/
+
   .info {
     justify-content: center;
     margin-top: 46px;
@@ -114,6 +146,8 @@
     font-size: 15px;
   }
 
+  /*MAIN*/
+
   main {
     width: 100%;
   }
@@ -127,17 +161,18 @@
     background: none;
   }
 
-  nav ul {
-    display: flex;
-    justify-content: space-around;
-  }
-
   .a2 {
     flex-direction: column;
   }
 
   .card {
     width: 100%;
+  }
+
+  /*POPULAR*/
+
+  .card2 {
+    margin-bottom: 10px;
   }
 
   .card2 img {
@@ -160,7 +195,10 @@
     order: 1;
     display: flex;
     flex-direction: column;
+    gap: 0;
   }
+
+  /*ACTIVITIES*/
 
   .blocactiv {
     width: 90%;
@@ -171,12 +209,25 @@
   #Activités h2 {
     margin-left: 5%;
   }
+
+  .card3 {
+    width: 100%;
+  }
   .card3 img {
     height: 190px;
   }
+
+  /*FOOTER*/
+
   .foot {
     flex-direction: column;
     margin-top: 20%;
-    padding-top: 10%;
+  }
+
+  .f1 li {
+    margin-bottom: -2%;
+  }
+  footer h6 {
+    padding-top: 5%;
   }
 }

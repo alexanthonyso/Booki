@@ -8,10 +8,23 @@
   padding: 0;
 }
 
+/*HEADER*/
+
 .logo {
   width: 61px;
   margin: 44px 0 0 0px;
 }
+
+header {
+  max-width: 1400px;
+  width: 98%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 53px;
+}
+
+/*NAVIGATION*/
 
 nav ul li {
   height: 100%;
@@ -28,6 +41,8 @@ nav ul li:hover {
 nav ul li a:hover {
   color: #0065fc;
 }
+
+/*H1 H2 H3 H4 H5 H6 P*/
 
 h1 {
   font-size: 22px;
@@ -61,6 +76,8 @@ p {
   font-size: 16px;
 }
 
+/*STARS*/
+
 .star,
 .ilogo i {
   color: #0065fc;
@@ -77,18 +94,7 @@ main {
   margin-right: auto;
 }
 
-.main {
-  display: flex;
-}
-
-header {
-  max-width: 1400px;
-  width: 98%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 53px;
-}
+/*SEARCH*/
 
 .search {
   padding-top: 20px;
@@ -120,6 +126,7 @@ input {
   font-weight: bold;
   padding: 15px;
 }
+
 #search_icon {
   display: none;
 }
@@ -139,6 +146,8 @@ input {
   display: none;
 }
 
+/*INFO*/
+
 .info {
   margin-top: 10px;
   margin-bottom: 37px;
@@ -157,6 +166,8 @@ input {
   border-color: #d9d9d9;
   border-radius: 30px;
 }
+
+/*FILTRES*/
 
 .filtre {
   width: 100%;
@@ -190,7 +201,11 @@ input {
   font-size: 22px;
 }
 
-/*Hébergements a Marseille*/
+/*MAIN*/
+
+.main {
+  display: flex;
+}
 
 .a1 {
   width: 62%;
@@ -210,7 +225,6 @@ input {
 }
 
 .card {
-  height: 60.4%;
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -230,7 +244,6 @@ input {
 }
 
 .container {
-  height: 39.6%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -246,6 +259,7 @@ input {
 .star1 {
   display: flex;
   padding-top: 1%;
+  max-width: 133px;
 }
 
 nav a {
@@ -262,6 +276,8 @@ nav li {
   justify-content: center;
   width: 100px;
 }
+
+/*POPULAR*/
 
 aside {
   padding-left: 3%;
@@ -282,7 +298,6 @@ aside {
 
 .card2 {
   display: flex;
-  max-height: 140px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
@@ -326,10 +341,11 @@ aside {
   align-items: center;
 }
 
-/*ACTIVITE A  MARSEILLE*/
+/*ACTIVITIES*/
 
 #Activités {
   margin-top: 50px;
+  margin-bottom: 69px;
 }
 
 .blocactiv {
@@ -345,7 +361,6 @@ aside {
   border-radius: 20px;
   cursor: pointer;
   width: 100%;
-  height: 100%;
 }
 
 .card3 img {
@@ -356,7 +371,7 @@ aside {
 }
 
 .activtext {
-  padding: 15px;
+  padding: 6%;
 }
 
 /*FOOTER*/
